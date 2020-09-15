@@ -1,7 +1,28 @@
 .center {
-
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
 }
 
-#my-element {
+div.embed {
+  width: 100% !important;
+  overflow-y: scroll;
+}
 
+.video-container {
+  position: absolute;
+  width: 20vw;
+  height: 15vw;
+  z-index: 10;
+  border-radius: 10px;
+  overflow: hidden;
+  bottom: 20px;
+  left: 20px;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.3);
+}
+
+#videoElement {
+  width: 20vw;
 }
